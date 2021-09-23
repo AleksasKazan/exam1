@@ -6,15 +6,15 @@ namespace examPart1
     {
         static void Main(string[] args)
         {
-            int bag1 = Convert.ToInt32(Console.ReadLine());
-            int bag2 = Convert.ToInt32(Console.ReadLine());
-            int bag3 = Convert.ToInt32(Console.ReadLine());
-            int bag4 = Convert.ToInt32(Console.ReadLine());
-            int bag5 = Convert.ToInt32(Console.ReadLine());
+            double bag1 = Convert.ToDouble(Console.ReadLine());
+            double bag2 = Convert.ToDouble(Console.ReadLine());
+            double bag3 = Convert.ToDouble(Console.ReadLine());
+            double bag4 = Convert.ToDouble(Console.ReadLine());
+            double bag5 = Convert.ToDouble(Console.ReadLine());
             CheckHeaviest(bag1, bag2, bag3, bag4, bag5);
         }
 
-        static void CheckHeaviest(int bag1, int bag2, int bag3, int bag4, int bag5)
+        static void CheckHeaviest(double bag1, double bag2, double bag3, double bag4, double bag5)
         {
             //at first weight bag1 and bag2 together
             //at second weight bag3 bag4 and bag5 together
